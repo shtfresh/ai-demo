@@ -1,0 +1,40 @@
+:root {
+  --brand-1: #f67507;
+  --brand-2: #f79038;
+  --brand-3: #fcd5b5;
+  --btn-primary-color: #000000;
+}
+.ChatApp,
+.MessageContainer,
+.Navbar,
+.Message .Bubble,
+.QuickReplies,
+.ChatFooter {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ChatApp {
+  background-color: #ece2e2;
+}
+.MessageContainer {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f2f2f2 100%);
+}
+.Navbar {
+  background-color: #9013fe;
+  background-image: linear-gradient(180deg, #ffffff 0%, #f2f2f2 100%);
+  background-position: center bottom;
+}
+.Navbar .IconBtn {
+  color: #4a90e2;
+}
+.Navbar-title {
+  color: #9013fe;
+}
+.Message.left .Bubble {
+  background-color: #bae9de;
+  color: #000000;
+}
+.Message.right .Bubble {
+  background-color: #a5c7e9;
+  color: #000000;
+}
