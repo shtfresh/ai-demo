@@ -13,7 +13,7 @@ import re
 
 ollama_client = OpenAI(
     base_url='https://dashscope.aliyuncs.com/compatible-mode/v1',
-    api_key='sk-2f130bf15cf84ed6968bd9efca3c3469',
+    api_key='test',
 )
 
 # 在swarm构建时，指定与ollama连接的客户端
